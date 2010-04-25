@@ -20,5 +20,5 @@ control configuration, and so on).
 I’m putting what I’ve got so far up here in case
 some brave soul wishes to continue the work.
 
-Will Robertson
+[Will Robertson](http://github.com/wspr)
 2009
