@@ -56,7 +56,7 @@ Memoir assumes jn.aux, jn.toc, jn.lof, jn.lot as the normal input files. It take
 
 Memoir's glossary system is such that MakeIndex can be used to sort the entries. The manual suggests a *.gst file for controlling MakeIndex for the glossary items (analagous to *.ist for index items).
 
-Memoir also supplies a \newlistof command where the user specifies the particular file extension.
+Memoir also supplies a \verb|\newlistof| command where the user specifies the particular file extension.
 
 
 \section{The list}
@@ -70,7 +70,7 @@ Memoir also supplies a \newlistof command where the user specifies the particula
 
 \EXT{???}{.loa}{List of algorithms}
 
-\EXT{asymptote}{_.pre}{Used to communicate preamble declarations from an \pkg{Asymptote} figure to the document}
+\EXT{asymptote}{.pre}{Used to communicate preamble declarations from an \pkg{Asymptote} figure to the document}
 
 \EXT{attachfile2}{.atfi}{Attributes for attached files}
 
@@ -196,6 +196,8 @@ I forgot about \jobname.ttb -> flowfram's thumbtab file.
 \EXT{cweb}{.scn}{???}
 \EXT{juraabbrev}{.abb}{???}
 \EXT{CoverPage}{.BibTeX.txt}{???}
+\EXT{pdfcomment}{.upa}{???}
+\EXT{pdfcomment}{.upb}{???}
 
 skak.sty, xskak.sty  export chess positions to *.fen
 xskak.sty exports chess games to *.xsk
